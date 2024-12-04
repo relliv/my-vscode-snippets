@@ -10,7 +10,7 @@
 			"$2",
 			"// #endregion"
 		],
-		"description": "Create a region group for react functions "
+		"description": "Create a region group for react functions and classes"
 	},
 	"Region Group for React Templates": {
 		"prefix": [
