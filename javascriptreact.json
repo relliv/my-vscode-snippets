@@ -1,17 +1,28 @@
 {
-	// #region React
-	"Region Group for React Projects": {
+	"Region Group for React Codes": {
 		"prefix": [
 			"reg",
 			"region",
 			"rg"
 		],
 		"body": [
+			"// #region $1",
+			"$2",
+			"// #endregion"
+		],
+		"description": "Create a region group for react functions "
+	},
+	"Region Group for React Templates": {
+		"prefix": [
+			"reg_template",
+			"region_template",
+			"rg_template"
+		],
+		"body": [
 			"{/* #region $1 */}",
 			"$2",
 			"{/* #endregion */}"
 		],
-		"description": "Create a region group for react projects"
+		"description": "Create a region group for react templates (in template)"
 	},
-	// #endregion
 }
