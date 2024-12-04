@@ -1,0 +1,15 @@
+{
+	"Region Group for React Projects": {
+		"prefix": [
+			"reg",
+			"region",
+			"rg"
+		],
+		"body": [
+			"{/* #region $1 */}",
+			"$2",
+			"{/* #endregion */}"
+		],
+		"description": "Create a region group for react projects"
+	},
+}

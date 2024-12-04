@@ -1,0 +1,5 @@
+*.code-snippets
+*.json
+
+!typescriptreact.json
+!javascriptreact.json
