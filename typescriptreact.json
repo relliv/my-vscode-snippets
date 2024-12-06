@@ -25,4 +25,27 @@
 		],
 		"description": "Create a region group for react templates"
 	},
+	"Component template": {
+		"prefix": [
+			"comp",
+			"component",
+			"comp_template",
+		],
+		"body": [
+			"import React from 'react';",
+			"",
+			"interface IAiAssistantProps {}",
+			"",
+			"const AiAssistant = (props: IAiAssistantProps): React.ReactElement => {",
+			"  return (",
+			"    <>",
+			"      <h1>Hello REL! I am AiAssistant</h1>",
+			"    </>",
+			"  );",
+			"};",
+			"",
+			"export default AiAssistant;",
+		],
+		"description": "Create a region group for react templates"
+	},
 }
