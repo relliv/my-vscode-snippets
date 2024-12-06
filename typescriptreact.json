@@ -23,6 +23,6 @@
 			"$2",
 			"{/* #endregion */}"
 		],
-		"description": "Create a region group for react templates (in template)"
+		"description": "Create a region group for react templates"
 	},
 }
