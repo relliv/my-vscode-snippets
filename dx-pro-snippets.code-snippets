@@ -1,0 +1,118 @@
+{
+	// #region Region Groups
+	"Region Group for JS/TS": {
+		"scope": "javascript,typescript,json",
+		"prefix": [
+			"reg",
+			"region",
+			"rg"
+		],
+		"body": [
+			"// #region $1",
+			"$2",
+			"// #endregion"
+		],
+		"description": "Create a region group"
+	},
+	// #endregion
+	// #region Ray
+	"Ray Import for JS/TS": {
+		"scope": "javascript,typescript",
+		"prefix": [
+			"rayi",
+		],
+		"body": [
+			"import { ray } from \"node-ray\";",
+		],
+		"description": "Import ray module"
+	},
+	"Use Ray for JS/TS": {
+		"scope": "javascript,typescript",
+		"prefix": [
+			"ray",
+		],
+		"body": [
+			"ray($1)",
+		],
+		"description": "Use ray"
+	},
+	// #endregion
+	// #region Frontend Methods
+	"Public method for JS/TS": {
+		"scope": "javascript,typescript",
+		"prefix": [
+			"pub",
+			"public",
+		],
+		"body": [
+			"public $1($2): $3 {",
+			"\t$4",
+			"}"
+		],
+		"description": "Create public method"
+	},
+	"Private method for JS/TS": {
+		"scope": "javascript,typescript",
+		"prefix": [
+			"pri",
+			"private",
+		],
+		"body": [
+			"private $1($2): $3 {",
+			"\t$4",
+			"}"
+		],
+		"description": "Create private method"
+	},
+	// #endregion
+	// #region Backend Methods
+	"Public method for PHP": {
+		"scope": "php",
+		"prefix": [
+			"pub",
+			"public",
+		],
+		"body": [
+			"public function $1($2): $3 {",
+			"\t$4",
+			"}"
+		],
+		"description": "ICreate private PHP method"
+	},
+	"Private method for PHP": {
+		"scope": "php",
+		"prefix": [
+			"pri",
+			"private",
+		],
+		"body": [
+			"private function $1($2): $3 {",
+			"\t$4",
+			"}"
+		],
+		"description": "Create private PHP method"
+	},
+	// #endregion
+	// #region Tailwind Flex
+	"Tailwind Flex Row": {
+		"scope": "javascript,typescript,html,tsx,vue,scss",
+		"prefix": [
+			"flexr",
+		],
+		"body": [
+			"flex flex-row gap-$1"
+		],
+		"description": "Tailwind Flex Row"
+	},
+	"Tailwind Flex Col": {
+		"scope": "javascript,typescript,html,tsx,vue,scss",
+		"prefix": [
+			"flexc",
+		],
+		"body": [
+			"flex flex-col gap-$1"
+		],
+		"description": "Tailwind Flex Col"
+	},
+	// #endregion
+}
