@@ -1,7 +1,7 @@
 {
 	// #region Region Groups
 	"Region Group for JS/TS": {
-		"scope": "javascript,typescript,json",
+		"scope": "javascript,typescript,json,php",
 		"prefix": [
 			"reg",
 			"region",
@@ -11,6 +11,20 @@
 			"// #region $1",
 			"$2",
 			"// #endregion"
+		],
+		"description": "Create a region group"
+	},
+	"Region Group for HTML": {
+		"scope": "html",
+		"prefix": [
+			"reg",
+			"region",
+			"rg"
+		],
+		"body": [
+			"<!-- #region $1 -->",
+			"$2",
+			"<!-- #endregion -->"
 		],
 		"description": "Create a region group"
 	},
@@ -65,6 +79,32 @@
 		"description": "Create private method"
 	},
 	// #endregion
+	// #region Angular Methods
+	"@Input decorator definition for angular": {
+		"scope": "typescript",
+		"prefix": [
+			"inp",
+			"input",
+		],
+		"body": [
+			"\t@Input()",
+			"\tpublic $1: $2;"
+		],
+		"description": "Create input property"
+	},
+	"@Output decorator definition for angular": {
+		"scope": "typescript",
+		"prefix": [
+			"out",
+			"output",
+		],
+		"body": [
+			"\t@Output()",
+			"\tpublic $1: $2;"
+		],
+		"description": "Create output property"
+	},
+	// #endregion
 	// #region Backend Methods
 	"Public method for PHP": {
 		"scope": "php",
@@ -114,5 +154,17 @@
 		],
 		"description": "Tailwind Flex Col"
 	},
+	// #endregion
+	// #region Const Function
+	"Const Function": {
+		"scope": "javascript,typescript,html,tsx,vue",
+		"prefix": [
+			"constf",
+		],
+		"body": [
+			"const $1 = ($2) => {}",
+		],
+		"description": "Const Function"
+	}
 	// #endregion
 }
