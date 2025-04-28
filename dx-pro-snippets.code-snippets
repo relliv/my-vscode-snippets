@@ -179,6 +179,21 @@
 			"const $1 = ($2) => {}",
 		],
 		"description": "Const Function"
+	},
+	// #endregion
+	// #region Markdown
+	"Markdown Table": {
+		"scope": "markdown",
+		"prefix": [
+			"table",
+			"mdtable"
+		],
+		"body": [
+			"| Column 1 | Column 2 | Column 3 |",
+			"|----------|----------|----------|",
+			"|   $1     |   $2     |   $3     |"
+		],
+		"description": "Create a markdown table"
 	}
 	// #endregion
 }
